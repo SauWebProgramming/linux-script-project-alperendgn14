@@ -20,7 +20,7 @@ Merhabalar, ben Sakarya Üniversitesi Bilişim Sistemleri Müh. bölümünden b2
      df -h / ile kök dizini seçtim, grep / ile sadece veri olan satırı seçtim, echo "$DISK_INFO" toplanan bilgiyi işlem yapmak üzere sisteme      döndürdüm,  cut -d ' ' -f 2 ile total boyutu aldım, cut -d ' ' -f 5 doluluk oranını % ile temsil eden kısmı aldım.
    
    > Aktif kullanıcı hesabı
-     who ile giriş yapmış kullanıcıları listeledim, wc -l ile count'unu aldım.
+     whoami ile giriş yapmış kullanıcıları listeledim, wc -l ile count'unu aldım.
 
 3) Kullandığım paketler
   > Nginx ve crontab kullanıldı.
