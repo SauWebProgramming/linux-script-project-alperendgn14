@@ -23,7 +23,7 @@ DISK_SIZE=$(echo "$DISK_INFO" | tr -s ' ' | cut -d ' ' -f 2)
 DISK_USED_PERCENT=$(echo "$DISK_INFO" | tr -s ' ' | cut -d ' ' -f 5)
 
 
-AKTIF_KULLANICI=$(who | wc -l)
+AKTIF_KULLANICI=$(whoami | wc -l)
 
 
 
